@@ -1,0 +1,24 @@
+    0 procedure test;
+    1   var input;
+    2   begin
+    3     read(input);
+    4     write(input);
+    6   end;
+   2  INT    0    4
+   3  RED    0    3
+   4  LOD    0    3
+   5  WRT    0    0
+   6  OPR    0    0
+    7 
+    7 begin
+    8   call test;
+    9 end.
+   7  INT    0    3
+   8  CAL    0    2
+   9  OPR    0    0
+START PL/0
+Input a integer:
+98
+Here is the integer:
+98
+END PL/0
